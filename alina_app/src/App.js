@@ -1,12 +1,14 @@
-
 import './App.css';
+import Home from './Home/Home.js';
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-      </header>
+      <React.Fragment>
+        <Home/>
+      </React.Fragment>
+      
     </div>
   );
 }

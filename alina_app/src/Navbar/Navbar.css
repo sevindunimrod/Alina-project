@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+:root{
+    --mainColor: #000;
+    --textColor: #000000;
+    --highlightColor: #ff0000;
+    --gray: #d9d9d9;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background: transparent;
+    color: var(--textColor);
+    top: 30px;
+}
+
+nav a {
+    margin: 0 2rem;
+    color: var(--textColor);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--highlightColor);
+}
+
+header button {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    /* visibility: hidden; */
+    opacity: 0;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    header button {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header  nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: transparent;
+        transition: 1s;
+        transform: translateY(-100vh);
+
+    }
+
+    header .responsive_nav{
+        transform: none;
+
+    }
+
+    }
+    
+
+
