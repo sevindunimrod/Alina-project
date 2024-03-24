@@ -10,7 +10,7 @@
 
 :root{
     --mainColor: #000;
-    --textColor: #000000;
+    --textColor: #ffffff;
     --highlightColor: #ff0000;
     --gray: #d9d9d9;
 }
@@ -21,7 +21,7 @@ header .container {
     justify-content: space-between;
     height: 80px;
     padding: 0 2rem;
-    background: transparent;
+    /* background: transparent; */
     color: var(--textColor);
     top: 30px;
 }
@@ -30,6 +30,7 @@ nav a {
     margin: 0 2rem;
     color: var(--textColor);
     text-decoration: none;
+    text-size-adjust: 24px;
 }
 
 nav a:hover {
