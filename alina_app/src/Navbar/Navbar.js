@@ -18,7 +18,7 @@ export default function Navbar() {
 
         <nav ref={navRef}>
           <a href="/">Home</a>
-          <a href="/">Products</a>
+          <a href="/products">Products</a>
           <a href="/">About Us</a>
           <a href="/">Contact</a>
             <button className='nav_close' onClick={showNav}>

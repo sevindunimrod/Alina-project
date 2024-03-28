@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar.js';
 import './Home.css';
 import ProductsSection from './ProductsSection.js';
+import Footer from '../Footer/Footer.js';
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       
     </div> 
     <ProductsSection/>
+    <Footer/>
     </>
    
     
