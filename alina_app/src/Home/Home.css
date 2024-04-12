@@ -37,6 +37,29 @@
 }
 
 .hero_section h1{
+  width: 5ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+
+  animation: typing 2s , 
+  cursor .6s step-end infinite alternate;
+
+}
+
+@keyframes cursor{
+    50% { border-color: transparent; }
+}
+
+@keyframes typing {
+    from {
+      width: 0
+    }
+}
+
+.hero_section h1{
     font-size: 130px;
     font-weight: 800;
     font-family: 'Work Sans', sans-serif;
