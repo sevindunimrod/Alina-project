@@ -2,10 +2,16 @@ import React, { useState } from 'react'
 import Navbar from '../Navbar/Navbar.js';
 import './Products.css';
 import { Contents } from './Contents.js';
-import podImg from '../Images/Product_img/mixed-cocopeat-block.jpg'
 import Footer from '../Footer/Footer.js';
 
 export default function Products() {
+
+  const [items, setItems] = useState([]);
+  const [visible, setVisible] = useState(8);
+
+  const showMore = () => {
+    setVisible((preValue) => preValue + 4);
+  }
 
   const [products, setProducts] = useState([
     {
@@ -51,12 +57,11 @@ export default function Products() {
     <header>
     <div className="prod_cont">
     <Navbar/>
-    <div className="header_title">
+    <div className="header_title" visible>
       <h2>ALL <br /><span> PRODUCTS</span> </h2>
     </div>
     </div>
     </header>
-
     <section>
       <div className="products">
         <div className="items">

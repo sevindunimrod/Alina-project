@@ -1,7 +1,6 @@
 .contList{
     align-items: center;
     position: relative;
-    flex-basis: 50%;
     font-size: 30px;
     display: flex;
     flex-wrap: wrap;
