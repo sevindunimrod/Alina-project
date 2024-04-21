@@ -1,0 +1,55 @@
+.contactus_cont{
+    background: url('../Images/contUs_back.jpg');
+    background-size:cover;
+    background-position: center;
+    background-position-y:1px;
+    width: 100%;
+    height: 150vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_head img{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    top: 30px;
+    width: 35rem;
+    height: 25rem;
+}
+
+.contlist_cont{
+    background-color: #d9d9d9;
+    width: 1200px;
+    height: 800px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 280px;
+    top: 300px;
+}
+
+.contlist_cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.contlist_cont .header_tag{
+    font-size: 24px;
+
+}
+
+.contact_list_1{
+    align-items: right;
+    justify-content: right;
+    width: 500px;
+    right: 0px;
+    position: relative;
+}

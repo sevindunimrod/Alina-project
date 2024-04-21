@@ -19,19 +19,19 @@ export default function Footer() {
             <div className="footer_cont">
                 <h3>Quick Links</h3>
                 <ul className='list'>
-                <li><a href="">Home</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/">Contact</a></li>
                 </ul>
             </div>
 
             <div className="socials">
                 <h3>Follow US</h3>
-                <li><a href=""><Facebook/></a></li>
-                <li><a href=""><InstagramIcon/></a></li>
-                <li><a href=""><YouTubeIcon/></a></li>
-                <li><a href=""><TwitterIcon/></a></li>
+                <li><a href="/"><Facebook/></a></li>
+                <li><a href="/"><InstagramIcon/></a></li>
+                <li><a href="/"><YouTubeIcon/></a></li>
+                <li><a href="/"><TwitterIcon/></a></li>
             </div>
     </div>
 

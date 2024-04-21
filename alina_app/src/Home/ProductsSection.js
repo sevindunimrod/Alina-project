@@ -22,7 +22,7 @@ export default function ProductsSection() {
             <p>COCO pods</p>
         </div>
     </div> 
-    <button className='View_btn'><a href="/">View Products</a></button>
+    <button className='View_btn'><a href="/products">View Products</a></button>
     </div>
     
   )

@@ -20,7 +20,7 @@ export default function Navbar() {
           <a href="/">Home</a>
           <a href="/products">Products</a>
           <a href="/about">About Us</a>
-          <a href="/">Contact</a>
+          <a href="/contact">Contact</a>
             <button className='nav_close' onClick={showNav}>
               <FaTimes/>
             </button>
