@@ -59,6 +59,7 @@ header img {
 @media only screen and (max-width: 768px) {
     header .container {
         z-index: 10;
+
     }
     header button {
         visibility: visible;
@@ -76,10 +77,10 @@ header img {
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
-        background-color: transparent;
+        background-color: #29335c;
         transition: 1s;
         transform: translateY(-100vh);
-
+        z-index: 1;
     }
 
     header .responsive_nav{
