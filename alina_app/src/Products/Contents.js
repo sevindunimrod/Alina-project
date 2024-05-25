@@ -7,20 +7,20 @@ import PopupState, { bindTrigger, bindPopover } from 'material-ui-popup-state';
 
 export const Contents = (props) => {
 
-  const [items, setItems] = useState([]);
+  // const [items, setItems] = useState([]);
   const [visible, setVisible] = useState(8);
 
   const showMore = () => {
     setVisible((preValue) => preValue + 4);
   }
 
-  const showLess = () => {
-    setVisible((preValue) => preValue - 4);
-  }
+  // const showLess = () => {
+  //   setVisible((preValue) => preValue - 4);
+  // }
 
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  // const [open, setOpen] = React.useState(false);
+  // const handleOpen = () => setOpen(true);
+  // const handleClose = () => setOpen(false);
 
   const products = props.products;
   console.log(props, products);
