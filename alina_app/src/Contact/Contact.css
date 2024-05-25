@@ -147,9 +147,13 @@
 }
 
 @media screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+        max-width: fit-content;
+    }
     .contactus_cont{
-        height: 190vh;
-        
+        height: 300vh;
+        max-width: 800px !important;
     }
 
     .contactus_cont > h1{
@@ -214,7 +218,7 @@
     .contact_list_2{
         align-items: center;
         justify-content: center;
-        top: 70px;
+
         position: relative;
         text-align: center;
     }
@@ -233,7 +237,6 @@
         justify-content: center;
         width: 450px;
         left: 0;
-        top: 70px;
         position: relative;
         text-align: center;
     }
