@@ -50,14 +50,14 @@
 
 
  .View_btn{
-    background-color: #ffffff;
-    color: #000000;
+    background-color:#000000;
+    color: #ffff;
     padding: 17px 20px;
     border: 0px solid #000;
     border-radius: 35px;
     position: relative;
    }
-   /*
+   
 .View_btn:hover{
     background: linear-gradient(to right,#f2f2f2 ,#7b7b7b);
     background-color: #f2f2f2;
@@ -69,7 +69,7 @@
 .View_btn a{
     text-decoration: none;
     color: #000;
-  } */
+  } 
   @media only screen and (max-width: 768px) {
     .Products {
         flex-direction: column; /* Change direction to column for mobile view */
