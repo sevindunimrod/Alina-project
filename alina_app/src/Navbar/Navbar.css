@@ -5,10 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
-
 }
 
-:root{
+:root {
     --mainColor: #000;
     --textColor: #ffffff;
     --highlightColor: #ff0000;
@@ -21,21 +20,25 @@ header .container {
     justify-content: space-between;
     height: 80px;
     padding: 0 2rem;
-    /* background: transparent; */
     color: var(--textColor);
     top: 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
 }
 
 nav a {
     margin: 0 2rem;
     color: var(--textColor);
     text-decoration: none;
-    text-size-adjust: 24px;
+    font-size: 1rem;
 }
 
 nav a:hover {
     color: var(--highlightColor);
-    transition: .5s;
+    transition: 0.5s;
 }
 
 header button {
@@ -45,28 +48,27 @@ header button {
     border: none;
     outline: none;
     color: var(--textColor);
-    /* visibility: hidden; */
     opacity: 0;
+    visibility: hidden;
 }
 
 header img {
     width: 120px;
     height: 120px;
-    position: relative;
-    top: 5px;
 }
 
 @media only screen and (max-width: 768px) {
     header .container {
+        position: relative;
         z-index: 10;
-
     }
+    
     header button {
-        visibility: visible;
         opacity: 1;
+        visibility: visible;
     }
 
-    header  nav{
+    nav {
         position: fixed;
         top: 0;
         left: 0;
@@ -78,17 +80,41 @@ header img {
         justify-content: center;
         gap: 1.5rem;
         background-color: #29335c;
-        transition: 1s;
-        transform: translateY(-100vh);
+        transition: transform 0.3s ease-in-out;
+        transform: translateY(-100%);
         z-index: 1;
     }
 
-    header .responsive_nav{
-        transform: none;
-
+    .responsive_nav {
+        transform: translateY(0);
     }
 
+    .nav_open {
+        z-index: 100;
+    }
+
+    .nav_close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    header button.nav_open {
+        display: none;
     }
     
-
-
+    nav {
+        position: static;
+        transform: none;
+        height: auto;
+        width: auto;
+        flex-direction: row;
+        background-color: transparent;
+    }
+    
+    .nav_close {
+        display: none;
+    }
+}

@@ -35,7 +35,10 @@
     flex-basis: 50%;
     border-radius: 5px;
     box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.19),
-0px 6px 6px 0px rgba(0,0,0,0.23);
+    0px 6px 6px 0px rgba(0,0,0,0.23);
+    margin: 10px;
+    width: 326px;
+    height: 429px;
 }
 
 .prod p{
@@ -45,23 +48,16 @@
 
 }
 
-.View_btn{
-    background: linear-gradient(to right,#ffffff ,#828282);
+
+ .View_btn{
     background-color: #ffffff;
     color: #000000;
-    font-family: Trebuchet MS;
-    font-size: 18px;
-    font-weight: 800;
-    font-style: normal;
-    text-decoration: none;
     padding: 17px 20px;
     border: 0px solid #000;
     border-radius: 35px;
-    display: inline-block;
-    box-shadow: 0px 7px 8px 1px rgba(72.63185620307922,71.29720702627455,71.29720702627455,0.5);
-    bottom: 20px;
     position: relative;
    }
+   /*
 .View_btn:hover{
     background: linear-gradient(to right,#f2f2f2 ,#7b7b7b);
     background-color: #f2f2f2;
@@ -73,4 +69,21 @@
 .View_btn a{
     text-decoration: none;
     color: #000;
+  } */
+  @media only screen and (max-width: 768px) {
+    .Products {
+        flex-direction: column; /* Change direction to column for mobile view */
+        align-items: center; /* Center align items */
+    }
+
+    .prod {
+        flex-basis: 100%; /* Each product takes full width */
+        margin: 10px 0; /* Margin adjustments for mobile view */
+    }
+
+    .prod img {
+        width: 100%; /* Full width for images in mobile view */
+        height: auto; /* Maintain aspect ratio */
+    }
+    
   }
