@@ -6,6 +6,7 @@
     height: 65vh;
 }
 
+
 .hText{
     color: #fff;
     align-items: left;
@@ -22,7 +23,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 400px;
+    top: 300px;
     left: 5rem;
     background-color: #fff;
     width: 110vh;
@@ -37,22 +38,21 @@
     font-size: 20px;
     text-align: center;
 }
-
-.sec_1{
+.sec_1 {
     top: 0;
     background-color: #D9D9D9;
-    height: 80vh;
-}
-
-.items{
+    height: auto; /* Changed to auto for better responsiveness */
+  }
+  
+  .items {
     display: flex;
     flex-direction: row;
     align-items: center;
     position: relative;
     justify-content: center;
-}
-
-.items .item_card{
+  }
+  
+  .items .item_card {
     width: 36vh;
     height: 43vh;
     margin: 10rem 18px 18px 10px;
@@ -67,37 +67,34 @@
     -webkit-box-shadow: 0px 37px 22px -17px rgba(0,0,0,0.45);
     -moz-box-shadow: 0px 37px 22px -17px rgba(0,0,0,0.45);
     box-shadow: 0px 37px 22px -17px rgba(0,0,0,0.45);
-    
-}
-
-
-.items .item_card img{
+  }
+  
+  .items .item_card img {
     width: 36vh;
     height: 34vh;
-    border-radius: 50px 50px 0px 0px
-}
-
-.item_card .title_card h2{
+    border-radius: 50px 50px 0px 0px;
+  }
+  
+  .item_card .title_card h2 {
     top: 30px;
     position: relative;
     justify-content: center;
     text-align: center;
     font-size: 20px;
-    
-}
-
-.item_card .title_card{
+  }
+  
+  .item_card .title_card {
     position: sticky;
     top: 0;
     z-index: 1000;
-}
-
-.sec_2{
+  }
+  
+  .sec_2 {
     height: 50vh;
     top: 10px;
-}
-
-.sec_2 .cont_sec2{
+  }
+  
+  .sec_2 .cont_sec2 {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -105,34 +102,91 @@
     align-items: center;
     top: 10px;
     width: 100%;
-}
-
-.sec_2 .header_sec2 {
+  }
+  
+  .sec_2 .header_sec2 {
     align-items: left;
     justify-content: left;
     position: relative;
     left: 10vh;
     width: 100%;
     bottom: 12vh;
-}
-
-.sec_2 .header_sec2 h1{
+  }
+  
+  .sec_2 .header_sec2 h1 {
     font-size: 30px;
-}
-
-.sec_2 .content_sec2{
-    
+  }
+  
+  .sec_2 .content_sec2 {
     justify-content: right;
     position: relative;
     left: 70vh;
     width: 2000vh;
-}
+  }
+  
+  .sec_2 .content_sec2 p {
+    font-size: 22px;
+  }
+  
+  /* Media query for mobile view */
+  @media (max-width: 768px) {
+    .items {
+      flex-direction: column;
+    }
+  
+    .items .item_card {
+      width: 80%;
+      height: auto;
+      margin: 1rem 0;
+    }
+  
+    .items .item_card img {
+      width: 100%;
+      height: auto;
+      border-radius: 50px 50px 0px 0px;
+    }
+  
+    .item_card .title_card h2 {
+      font-size: 18px;
+      top: 10px;
+    }
+  
+    .sec_2 {
+      height: auto; /* Changed to auto for better responsiveness */
+      margin-top: 20px; /* Adding some space after .sec_1 */
+    }
+  
+    .sec_2 .cont_sec2 {
+      flex-direction: column; /* Change layout to column for mobile */
+      align-items: flex-start; /* Align items to the start */
+      padding: 10px; /* Add some padding for better spacing */
+    }
+  
+    .sec_2 .header_sec2 {
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  
+    .sec_2 .header_sec2 h1 {
+      font-size: 24px; /* Adjust font size for better readability */
+      text-align: center;
+    }
+  
+    .sec_2 .content_sec2 {
+      left: 0;
+      width: 100%;
+      margin-top: 10px; /* Add margin for spacing */
+      
+    }
+  
+    .sec_2 .content_sec2 p {
+      font-size: 18px; /* Adjust font size for better readability */
+    }
+  }
+  
 
-.sec_2 .content_sec2 p{
-    font-size:22px;
-}
-
-.sec_3{
+ .sec_3{
     background-color: #D9D9D9;
     height: 40vh;
 }
@@ -249,4 +303,38 @@
 
 .sec_5 .content_sec2 p{
     font-size:22px;
+} 
+
+@media only screen and (max-width: 768px) {
+    .body{
+        overflow-x: hidden;
+        max-width: fit-content;
+    }
+
 }
+/* Hide .header_dis in mobile view */
+@media (max-width: 768px) {
+    .header_dis {
+      display: none;
+    }
+    .items {
+        flex-direction: column;
+      }
+    
+      .items .item_card {
+        width: 80%;
+        height: auto;
+        margin: 1rem 0;
+      }
+    
+      .items .item_card img {
+        width: 100%;
+        height: auto;
+        border-radius: 50px 50px 0px 0px;
+      }
+    
+      .item_card .title_card h2 {
+        font-size: 18px;
+        top: 10px;
+      }
+  }
