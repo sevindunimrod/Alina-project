@@ -15,11 +15,11 @@ export default function ProductsSection() {
         </div>
         <div className="prod">
             <img src={require('../Images/Product_img/1.png')} alt="" />
-            <p>COCO pods</p>
+            <p>Coco Peat Grow Bags</p>
         </div>
         <div className="prod">
             <img src={require('../Images/Product_img/mixed-cocopeat-block.jpg')} alt="" />
-            <p>COCO pods</p>
+            <p>Coco Peat and Husk Chip Bales</p>
         </div>
     </div> 
     <button className='View_btn'><a href="/products">View Products</a></button>
