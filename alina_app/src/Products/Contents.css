@@ -35,7 +35,7 @@
     height: 250px;
     top: -60px;
     left: 5px;
-    
+    background-color: #FFFFFF;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -73,6 +73,11 @@
     text-align: center;
     margin-top: -50px;
     font-size: 22px;
+    
+}
+
+.desc_btn{
+    margin-top: 40px;
 }
 
 .pagination button{

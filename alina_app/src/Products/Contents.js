@@ -36,6 +36,7 @@ export const Contents = (props) => {
                     {/* <h2>{product.title}</h2> */}
                     {/* <p>{product.description.substring(0, 110)}...</p> */}
                     <div>
+                    <div className="desc_btn">
                     <PopupState variant="popover" popupId="demo-popup-popover">
       {(popupState) => (
         <div>
@@ -59,6 +60,8 @@ export const Contents = (props) => {
         </div>
       )}
     </PopupState>
+                    </div>
+                    
               </div>
                     
                 </div>
