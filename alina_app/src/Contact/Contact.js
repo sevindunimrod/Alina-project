@@ -69,13 +69,16 @@ export default function Contact() {
                         </div>
                             
                         <div className="contact_list_3">
-                        <p>Miss. NATHASHA LOWE<br /><br />
-                        25B Hanover Road, Tottenham ,<br /><br />
-                        N15 4DL 
+                        <p>Miss. NATHASHA LOWE<br />
+                        ALINA (pvt) Ltd <br />
+                        25B Hanover Road<br />
+                        Tottenham <br />
+                        N15 4DL <br />
+                        England United Kingdom
                         </p> <br /><br />
 
                         <p>Email: lowenathasha2505@gmail.com</p> <br /><br />      
-                        <p>+44 7426 353322</p> 
+                        <p>Tel:+44 7426 353322</p> 
                         </div>
                     </section>
             </section>
