@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <header>
       <div className="container">
-        <a href="/"><img src={require('../Images/Alina Logo Sample 01.png')} alt="logo" /></a>
+        <a href="/"><img src={require('../Images/Alina_Logo_01.png')} alt="logo" /></a>
 
         <nav ref={navRef}>
           <a href="/">Home</a>

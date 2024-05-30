@@ -22,7 +22,9 @@ export default function ProductsSection() {
             <p>Coco Peat and Husk Chip Bales</p>
         </div>
     </div> 
-    <button className='View_btn'><a href="/products">View Products</a></button>
+    <div className="pagination1">
+    <button ><a href="/products">View Products</a></button>
+    </div>
     </div>
     
   )

@@ -94,6 +94,78 @@ export default function Products() {
       image: require('../Images/products/extra/20.png'), title: 'Alina Green Space Coconut Shell Base Products',
       description: 'Explore the sustainable beauty of our Alina Green Space Coconut Shell Base Products. Crafted from natural coconut shells, these products are versatile for use in garden decoration and landscaping. Create eco-friendly, captivating outdoor spaces with our coconut shell-based products, ensuring that natural beauty and sustainability go hand in hand'
     },
+    {
+      image: require('../Images/products/extra/21.jpg'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/22.jpg'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/23.jpg'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/24.png'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/25.png'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/26.jpg'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/27.png'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/28.png'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/29.jpg'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/30.png'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/31.jpg'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/32.jpg'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/33.jpg'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/34.jpg'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/36.jpg'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/37.jpg'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/38.jpg'), title: 'Alina coco-chips-block',
+      description: ''
+    },
+    {
+      image: require('../Images/products/extra/39.jpg'), title: 'Alina coco-chips-block',
+      description: ''
+    },
   ]);
 
   return (

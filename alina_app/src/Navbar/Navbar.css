@@ -21,7 +21,8 @@ header .container {
     height: 80px;
     padding: 0 2rem;
     color: var(--textColor);
-    top: 30px;
+    position: relative;
+    z-index: 10;
 }
 
 nav {
@@ -48,13 +49,11 @@ header button {
     border: none;
     outline: none;
     color: var(--textColor);
-    opacity: 0;
-    visibility: hidden;
 }
 
 header img {
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 70px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -62,8 +61,8 @@ header img {
         position: relative;
         z-index: 10;
     }
-    
-    header button {
+
+    header button.nav_open {
         opacity: 1;
         visibility: visible;
     }
@@ -89,10 +88,6 @@ header img {
         transform: translateY(0);
     }
 
-    .nav_open {
-        z-index: 100;
-    }
-
     .nav_close {
         position: absolute;
         top: 20px;
@@ -104,7 +99,7 @@ header img {
     header button.nav_open {
         display: none;
     }
-    
+
     nav {
         position: static;
         transform: none;
@@ -113,7 +108,7 @@ header img {
         flex-direction: row;
         background-color: transparent;
     }
-    
+
     .nav_close {
         display: none;
     }
