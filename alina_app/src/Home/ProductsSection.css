@@ -70,11 +70,35 @@
     text-decoration: none;
     color: #000;
   }  */
-  .pagination1 button{
+  .pagination1 {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center;    /* Centers the button vertically */
+}
+
+.centered-button {
+    background-color: black; /* Sets button background to black */
+    color: white;            /* Sets button text color to white */
+    border-radius: 10px;        /* Removes default button border */
+    padding: 10px 20px;      /* Adds padding to the button */
+    cursor: pointer;         /* Changes cursor to pointer on hover */
+    font-size: 16px;         /* Increases font size */
+}
+
+.centered-button a {
+    color: white;            /* Ensures link text color is white */
+    text-decoration: none;   /* Removes underline from the link */
+}
+
+.centered-button:hover {
+    opacity: 0.8;            /* Adds a hover effect */
+}
+
+  /* .pagination1 button{
     display: flex;
     position: relative;
-    align-items: center;
-    appearance: none;
+    box-align: center; */
+    /* appearance: none;
     background-color: #000000;
     border: 2px solid #1A1A1A;
     border-radius: 15px;
@@ -96,11 +120,11 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    max-width: 20%;
-    will-change: transform;
-}
+    width: 100%;
+    will-change: transform; */
+/* } */
 
-.pagination:disabled {
+/* .pagination:disabled {
   pointer-events: none;
 }
 
@@ -112,7 +136,7 @@
 .pagination:active {
   box-shadow: none;
   transform: translateY(0);
-}
+} */
 
   @media only screen and (max-width: 768px) {
     .Products {

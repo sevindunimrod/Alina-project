@@ -23,8 +23,11 @@ export default function ProductsSection() {
         </div>
     </div> 
     <div className="pagination1">
-    <button ><a href="/products">View Products</a></button>
-    </div>
+    <button className="centered-button">
+        <a href="/products">View Products</a>
+    </button>
+</div>
+
     </div>
     
   )
