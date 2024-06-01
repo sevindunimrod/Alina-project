@@ -67,11 +67,12 @@ export default function AboutUs() {
     </div>
     <div class="card">
       <div class="section-left2">
-        <p> Our mission is twofold - to foster an eco-conscious approach to agriculture and to empower local small and medium-scale producers,
-            including persons with disabilities, by creating an equitable platform for their invaluable contributions.</p>
+        <div class="topic">Our Mission</div>
+        
       </div>
       <div class="section-right2">
-        <div class="topic">Our Mission</div>
+      <p> Our mission is twofold - to foster an eco-conscious approach to agriculture and to empower local small and medium-scale producers,
+            including persons with disabilities, by creating an equitable platform for their invaluable contributions.</p>
       </div>
     </div>
     <div  className="card">
@@ -86,14 +87,15 @@ export default function AboutUs() {
     </div>
     <div class="card1">
       <div class="section-left2">
-        <p> Our product line is a reflection of our commitment to the environment, to the local community, and to the discerning buyers who share our values. We offer a diverse range of eco-friendly coco and coir-based solutions, designed to meet your needs while minimizing your ecological footprint.
+        <div class="topic">Our Products</div>
+        
+      </div>
+      <div class="section-right2">
+      <p> Our product line is a reflection of our commitment to the environment, to the local community, and to the discerning buyers who share our values. We offer a diverse range of eco-friendly coco and coir-based solutions, designed to meet your needs while minimizing your ecological footprint.
           <br></br><br></br>
           From Alina Coir Brushes for sustainable cleaning to Alina Coco Peat Grow Bags for nurturing your green spaces, our products embody eco-friendliness and sustainability. They are meticulously crafted from renewable coir and natural materials, reflecting our dedication to responsible sourcing and production.
           <br></br><br></br>
           Each of our products embodies our commitment to environmental sustainability, from the sourcing of materials to the skilled craftsmanship of local producers, including those with disabilities. When you choose Alina, you choose products that nurture both the Earth and the local community.</p>
-      </div>
-      <div class="section-right2">
-        <div class="topic">Our Products</div>
       </div>
     </div>
     <Footer/>
