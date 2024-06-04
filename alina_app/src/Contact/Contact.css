@@ -1,12 +1,17 @@
+body, htm {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
 .contactus_cont{
     background: url('../Images/contUs_back.jpg');
     background-size:cover;
-    background-position: center;
+     background-position: center;
     background-position-y:1px;
     width: 100%;
     height: 180vh;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .contactus_cont h1{
@@ -42,18 +47,20 @@
 }
 
 .contlist_cont{
-    background-color: #d9d9d9;
-    width: 100%;
+    /* background-color: #d9d9d9; */
+    /* width: 1500px; */
     height: 800px;
+    width:90%;
     position: relative;
     display: flex;
     flex-direction: row;
-    top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
 }
 
 .contlist_cont .header_tag{
     font-size: 24px;
-    position: relative;
    text-align: center;
 }
 
@@ -65,8 +72,8 @@
     width: 500px;
     position: relative;
     text-align:justify;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .address_1{
@@ -75,6 +82,7 @@
     flex-direction: column;
     left: 30px;
     top: 90px;
+    max-width: 30.3%;
 }
 
 .line{
@@ -169,12 +177,13 @@
 
     .contlist_cont{
         background-color: #d9d9d9;
-        width: 550px;
+        /* width: 550px; */
         height: 1420px;
         position: relative;
         justify-content: center;
         align-items: center;
-        margin: auto;
+        /* margin: auto; */
+        margin-right: 100px;
         display: flex;
         top: 150px;
         flex-direction: column;
@@ -246,4 +255,128 @@
     }
    
 }
-
+.contlist_cont {
+    display: flex;
+    justify-content: space-between; /* Adjust this property as needed */
+    gap: 16px; /* Adjust as needed */
+  }
+  
+  .column {
+    flex: 1; /* This makes each column take equal space */
+    background-color: #f0f0f0; /* Just for visual distinction */
+    padding: 16px;
+    border: 1px solid #ddd;
+    /* max-width: 200px; */
+  }
+  
+/* Tablet view (two columns) */
+@media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .column {
+      flex: 1 1 50%; /* Two columns */
+    }
+  }
+  
+  /* Laptop view (three columns) */
+  @media (min-width: 1024px) {
+    .column {
+      flex: 1 1 33.333%; /* Three columns */
+    }
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .contactus_cont {
+    background: url('../Images/contUs_back.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 180vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contactus_cont h1 {
+    text-transform: uppercase;
+    color: #fff;
+    align-items: left;
+    justify-content: left;
+    left: 19rem;
+    position: absolute;
+    bottom: 75vh;
+    font-size: 50px;
+  }
+  
+  .contactus_cont h1 span {
+    color: red;
+    font-size: 50px;
+  }
+  
+  .contlist_cont {
+    width: 90%;
+    margin: 200px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .column {
+    flex: 1 1 30%;
+    background-color: #f0f0f0;
+    padding: 16px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  .header_tag {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .contact_list_1, .contact_list_2, .contact_list_3 {
+    text-align: justify;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .contactus_cont > h1 {
+      left: 5rem;
+      font-size: 30px;
+    }
+    .contactus_cont h1 span {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
+    .contactus_cont {
+      height: 300vh;
+      max-width: 800px !important;
+    }
+    .contactus_cont > h1 {
+      left: 0;
+      font-size: 30px;
+      margin: auto 50px;
+    }
+    .contactus_cont h1 span {
+      font-size: 30px;
+    }
+    .contlist_cont {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+    .column {
+      flex: 1 1 100%;
+      max-width: 90%;
+    }
+  }
+  

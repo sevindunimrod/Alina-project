@@ -98,74 +98,74 @@ export default function Products() {
       image: require('../Images/products/extra/21.jpg'), title: 'Alina coco-chips-block',
       description: ''
     },
+    // {
+    //   image: require('../Images/products/extra/22.jpg'), title: 'Alina coco-chips-block',
+    //   description: ''
+    // },
+    // {
+    //   image: require('../Images/products/extra/23.jpg'), title: 'Alina coco-chips-block',
+    //   description: ''
+    // },
+    // {
+    //   image: require('../Images/products/extra/24.png'), title: 'Alina coco-chips-block',
+    //   description: ''
+    // },
+    // {
+    //   image: require('../Images/products/extra/25.png'), title: 'Alina coco-chips-block',
+    //   description: ''
+    // },
     {
-      image: require('../Images/products/extra/22.jpg'), title: 'Alina coco-chips-block',
+      image: require('../Images/products/extra/26.jpg'), title: 'Alina coco-grow-bags',
+      description: ''
+    },
+    // {
+    //   image: require('../Images/products/extra/27.png'), title: 'Alina coco-chips-block',
+    //   description: ''
+    // },
+    // {
+    //   image: require('../Images/products/extra/28.png'), title: 'Alina coco-chips-block',
+    //   description: ''
+    // },
+    {
+      image: require('../Images/products/extra/29.jpg'), title: 'Alina coco-kitchen-brushes',
+      description: ''
+    },
+    // {
+    //   image: require('../Images/products/extra/30.png'), title: 'Alina coco-chips-block',
+    //   description: ''
+    // },
+    {
+      image: require('../Images/products/extra/31.jpg'), title: 'Natural coco platform brooms',
+      description: ''
+    },
+    // {
+    //   image: require('../Images/products/extra/32.jpg'), title: 'Alina coco-chips-block',
+    //   description: ''
+    // },
+    {
+      image: require('../Images/products/extra/33.jpg'), title: 'Angle broom',
       description: ''
     },
     {
-      image: require('../Images/products/extra/23.jpg'), title: 'Alina coco-chips-block',
+      image: require('../Images/products/extra/34.jpg'), title: 'Outdoor scraper brooms',
       description: ''
     },
     {
-      image: require('../Images/products/extra/24.png'), title: 'Alina coco-chips-block',
+      image: require('../Images/products/extra/36.jpg'), title: 'Pvc/ppn filled platform broom',
       description: ''
     },
     {
-      image: require('../Images/products/extra/25.png'), title: 'Alina coco-chips-block',
+      image: require('../Images/products/extra/37.jpg'), title: 'Natural coco fiber sweeping broom ',
       description: ''
     },
     {
-      image: require('../Images/products/extra/26.jpg'), title: 'Alina coco-chips-block',
+      image: require('../Images/products/extra/38.jpg'), title: 'Pvc/ppn mixed fiber sweeping broom',
       description: ''
     },
-    {
-      image: require('../Images/products/extra/27.png'), title: 'Alina coco-chips-block',
-      description: ''
-    },
-    {
-      image: require('../Images/products/extra/28.png'), title: 'Alina coco-chips-block',
-      description: ''
-    },
-    {
-      image: require('../Images/products/extra/29.jpg'), title: 'Alina coco-chips-block',
-      description: ''
-    },
-    {
-      image: require('../Images/products/extra/30.png'), title: 'Alina coco-chips-block',
-      description: ''
-    },
-    {
-      image: require('../Images/products/extra/31.jpg'), title: 'Alina coco-chips-block',
-      description: ''
-    },
-    {
-      image: require('../Images/products/extra/32.jpg'), title: 'Alina coco-chips-block',
-      description: ''
-    },
-    {
-      image: require('../Images/products/extra/33.jpg'), title: 'Alina coco-chips-block',
-      description: ''
-    },
-    {
-      image: require('../Images/products/extra/34.jpg'), title: 'Alina coco-chips-block',
-      description: ''
-    },
-    {
-      image: require('../Images/products/extra/36.jpg'), title: 'Alina coco-chips-block',
-      description: ''
-    },
-    {
-      image: require('../Images/products/extra/37.jpg'), title: 'Alina coco-chips-block',
-      description: ''
-    },
-    {
-      image: require('../Images/products/extra/38.jpg'), title: 'Alina coco-chips-block',
-      description: ''
-    },
-    {
-      image: require('../Images/products/extra/39.jpg'), title: 'Alina coco-chips-block',
-      description: ''
-    },
+    // {
+    //   image: require('../Images/products/extra/39.jpg'), title: 'Alina coco-chips-block',
+    //   description: ''
+    // },
   ]);
 
   return (
