@@ -317,7 +317,7 @@
   }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .hText {
       font-size: 20px;
       left: 0.5rem;
@@ -351,11 +351,11 @@
   .section-right,
   .section-left2,
   .section-right2 {
-      order: 1; /* Ensure the p tag appears after h2 */
+      order: 1; 
   }
 
   .section-left h2,
   .section-left2 h2 {
       order: 0; 
   }
-}
+} */
