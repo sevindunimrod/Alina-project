@@ -9,9 +9,12 @@
 
 .hText {
   color: #fff;
-  left: 5rem;
-  bottom: 50vh;
+  text-transform: uppercase;
+  align-items: left;
+  justify-content: left;
+  left: 19rem;
   position: absolute;
+  bottom: 75vh;
   font-size: 50px;
 }
 
@@ -264,6 +267,9 @@
   .hText {
       font-size: 25px;
       left: 1rem;
+  }
+  .sec_1{
+    display: none !important;
   }
 
   .header_dis {

@@ -110,4 +110,33 @@ body, html {
         overflow-x: hidden;
         max-width: fit-content;
     }
+
+     
+    .hero_section{
+        align-items: center;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .hero_section h1{
+        font-size: 100px;
+        align-items: center;
+        margin-right: 100px;
+        margin-bottom: 50px;
+        top: 90px;
+        position: relative;
+    }
+
+    .hero_section p{
+        font-size: 30px;
+        position: relative;
+        width: 350px;
+        margin-right: 100px;
+        top: 70px;
+    }
+
+    .hero_section p span{
+        font-size: 30px;
+    }
 }

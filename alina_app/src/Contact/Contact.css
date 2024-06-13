@@ -23,6 +23,7 @@ body, htm {
     position: absolute;
     bottom: 75vh;
     font-size: 50px;
+    font-weight: bolder;
 }
 
 .contactus_cont h1 span{

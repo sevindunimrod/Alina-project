@@ -16,7 +16,7 @@ export default function Home() {
           <div className="hero_section">
             {/* <img src={require('../Images/Home_Back.jpg')} alt="homeImg" /> */}
             <h1>ALINA</h1>
-            <p>CEYLON <span>COCO</span> AND <span>NATURAL</span> PRODUCTS</p>
+            <p>CEYLON <span>COCO</span> & <span>NATURAL</span> PRODUCTS</p>
           </div>
       </div>
       </section>
